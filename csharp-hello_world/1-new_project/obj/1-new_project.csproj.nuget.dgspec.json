@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ida/holbertonschool-csharp/csharp-hello_world/2-new_project/2-new_project.csproj": {}
+    "/home/ida/holbertonschool-csharp/csharp-hello_world/1-new_project/1-new_project.csproj": {}
   },
   "projects": {
-    "/home/ida/holbertonschool-csharp/csharp-hello_world/2-new_project/2-new_project.csproj": {
+    "/home/ida/holbertonschool-csharp/csharp-hello_world/1-new_project/1-new_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ida/holbertonschool-csharp/csharp-hello_world/2-new_project/2-new_project.csproj",
-        "projectName": "2-new_project",
-        "projectPath": "/home/ida/holbertonschool-csharp/csharp-hello_world/2-new_project/2-new_project.csproj",
+        "projectUniqueName": "/home/ida/holbertonschool-csharp/csharp-hello_world/1-new_project/1-new_project.csproj",
+        "projectName": "1-new_project",
+        "projectPath": "/home/ida/holbertonschool-csharp/csharp-hello_world/1-new_project/1-new_project.csproj",
         "packagesPath": "/home/ida/.nuget/packages/",
-        "outputPath": "/home/ida/holbertonschool-csharp/csharp-hello_world/2-new_project/obj/",
+        "outputPath": "/home/ida/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ida/.nuget/NuGet/NuGet.Config"
