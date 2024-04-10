@@ -7,7 +7,7 @@ class Dictionary {
             int bestScore = 0;
             string bestStudent = "";
             foreach (KeyValuePair<string, int> kvp in myList) {
-                if (bestScore < kvp.Value) {
+                if (bestScore <= kvp.Value) {
                     bestScore = kvp.Value;
                     bestStudent = kvp.Key;
                 }
