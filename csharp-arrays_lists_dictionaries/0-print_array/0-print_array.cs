@@ -12,9 +12,15 @@ class Array {
         }
 
         int[] newArray = new int[size];
-        for (int i = 0; i < size; i++) {
+        int i;
+        for (i = 0; i < size; i++) {
             newArray[i] = i;
-            Console.Write(newArray[i] + " ");
+            if (i == size - 1) {
+                Console.Write(newArray[i]);
+            }
+            else {
+                Console.Write(newArray[i] + " ");
+            }
         }
         Console.WriteLine();
 
