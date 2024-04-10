@@ -2,7 +2,7 @@
 
 class Array {
     public static int[] ReplaceElement(int[] array, int index, int n) {
-        if (array != null && index > 0 && index < array.Length) {
+        if (array != null && index >= 0 && index < array.Length) {
             array[index] = n;
             return array;
         }
