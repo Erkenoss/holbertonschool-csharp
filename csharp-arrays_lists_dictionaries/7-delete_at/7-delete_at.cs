@@ -8,7 +8,7 @@ class List {
             myList.Remove(elementToRemove);
         }
         else {
-            Console.WriteLine("Index out fo range");
+            Console.WriteLine("Index is out fo range");
         }
         return myList;
     }
