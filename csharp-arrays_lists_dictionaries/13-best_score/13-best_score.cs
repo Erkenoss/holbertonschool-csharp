@@ -14,8 +14,6 @@ class Dictionary {
             }
             return bestStudent;
         }
-        else {
-            return "None";
-        }
+        return "None";
     }
 }
