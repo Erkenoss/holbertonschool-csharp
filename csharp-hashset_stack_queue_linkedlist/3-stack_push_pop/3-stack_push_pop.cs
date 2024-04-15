@@ -6,7 +6,6 @@ class MyStack {
 
         if (aStack == null || aStack.Count == 0) {
             Console.WriteLine("Stack is empty");
-            return aStack;
         }
 
         Stack<string> tempStack = new Stack<string>(aStack);
@@ -18,8 +17,7 @@ class MyStack {
         Console.WriteLine("Stack contains \"{0}\": {1}", search, tf);
 
         if (tf) {
-            while (aStack.Pop() != search) {
-            }
+            while (aStack.Pop() != search) {}
         }
 
         aStack.Push(newItem);
