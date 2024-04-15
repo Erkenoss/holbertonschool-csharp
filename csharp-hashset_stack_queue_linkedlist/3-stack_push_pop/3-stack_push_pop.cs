@@ -4,8 +4,8 @@ using System.Collections.Generic;
 class MyStack {
     public static Stack<string> Info(Stack<string> aStack, string newItem, string search) {
 
-        if (aStack == null) {
-            Console.WriteLine("Stack is Empty");
+        if (aStack == null || aStack.Count == 0) {
+            Console.WriteLine("Stack is empty");
             return aStack;
         }
 
