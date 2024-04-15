@@ -10,7 +10,7 @@ class LList
 		{
 			if (index == n)
 			{
-				return element;
+				return item;
 			}
 			index++;
 		}
