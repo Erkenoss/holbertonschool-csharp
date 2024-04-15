@@ -7,11 +7,10 @@ class LList {
 
         if (tempNode != null) {
             if (n < tempNode.Value) {
-                myLList.AddBefore(tempNode, n);
-                return myLList;
+                return myLList.AddBefore(tempNode, n);
             }
 
-            tempNode = tempNode.next;
+            tempNode = tempNode.Next;
         }
         return myLList.AddLast(n);
     }
