@@ -9,7 +9,7 @@ class LList
 
         foreach (int data in myLList)
         {
-            sum = sum + data;
+            sum += data;
         }
         return sum;
     }
