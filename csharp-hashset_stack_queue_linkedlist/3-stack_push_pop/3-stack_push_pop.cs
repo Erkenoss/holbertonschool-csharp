@@ -12,7 +12,7 @@ class MyStack {
         Stack<string> tempStack = new Stack<string>(aStack);
 
         Console.WriteLine("Number of items: {0}", aStack.Count);
-        Console.WriteLine("Top Item: {0}", aStack.Peek());
+        Console.WriteLine("Top item: {0}", aStack.Peek());
 
         bool tf = aStack.Contains(search);
         Console.WriteLine("Stack contains {0}: {1}", search, tf);
