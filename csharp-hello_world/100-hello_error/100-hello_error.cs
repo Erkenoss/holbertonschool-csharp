@@ -1,2 +1,2 @@
-﻿Console.WriteLine("and that piece of art is useful - Dora Korpar, 2015-10-19");
+﻿Console.Error.Write("and that piece of art is useful - Dora Korpar, 2015-10-19\n");
 Environment.Exit(1);
